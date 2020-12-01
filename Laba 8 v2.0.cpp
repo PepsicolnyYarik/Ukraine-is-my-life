@@ -131,7 +131,7 @@ void tolower(char* text,int n)
 
 void tohigher(char* text, int i)
 {
-	if (text[i] >= 'a' && text[0] <= 'z')
+	if (text[i] >= 'a' && text[0] <= 'z')                 //перевод букв из нижнего в верхний регистр
 		text[i] += 'Z' - 'z';
 	if (text[i] >= 'а' && text[0] <= 'я')
 		text[i] += 'Я' - 'я';
